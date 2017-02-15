@@ -30,7 +30,7 @@ public class StoreData {
 		session.persist(e1);//persisting the object  
 		session.persist(e2);
 		session.persist(e3);
-
+System.out.println("successfully added");
 		t.commit();//transaction is committed  
 		session.close();  
 
